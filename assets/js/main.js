@@ -1,366 +1,481 @@
-//declare variable
+var _0x17cf = [
+  "เราสามารถถามหัวข้อพวกนี้ได้หมดเลย\x20เป็นเรื่องดีนะที่เราเปิดอกคุยกัน",
+  "myBtn",
+  "คู่นอนโอเคและอยากจะทำตามที่คุณขอ",
+  "rgba(0,\x200,\x200,\x200)",
+  "ansC",
+  "realz",
+  "ค่อยถามอีกที\x20เผื่อเปลี่ยนใจ",
+  "submitBtn",
+  "ทุกข้อที่กล่าวมา\x09",
+  "surveyHeader",
+  "8choB",
+  "setAttribute",
+  "\x209.หากขอ\x20Consent\x20แล้วถูกปฎิเสธ\x20ควรทำอย่างไร?",
+  "45057GEtXEW",
+  "submit",
+  "น้ำเสียง",
+  "การให้ความใส่ใจกับปัจจัยพวกนี้เป็นเรื่องดี\x20เพราะจะได้รู้ว่าคู่นอนเต็มใจให้\x20Consent\x20กับเราจริงๆ",
+  "choB",
+  "question",
+  "ยินดีด้วย!\x20คุณผ่านแบบทดสอบของเรา\x20<3",
+  "224990UopRih",
+  "display",
+  "ansA",
+  "2choA",
+  "inline",
+  "restartX()",
+  "backQuestion()",
+  "คู่นอนยังไม่มั่นใจหรือไม่อยากตอบปฎิเสธไปตรงๆ\x20",
+  "sheetdb-form",
+  "ที่ต้องถามก่อน\x20เพราะว่าเราต้องคิดเสมอว่าการกระทำของเราอาจส่งผลอะไรกับอีกฝ่าย",
+  "desText",
+  "ภาษากาย",
+  "inline-block",
+  "what",
+  "POST",
+  "backgroundColor",
+  "5choC",
+  "4.คนกลุ่มไหนต้องขอ\x20Consent\x20ซึ่งกันและกันบ้าง?",
+  "การป้องกัน",
+  "addEventListener",
+  "เราขอแนะนำบทความนี้ให้คุณได้ลองอ่าน\x20เพื่อให้คุณเข้าใจมากขึ้นนะ",
+  "9choC",
+  "81363BGTHUW",
+  "ใช่",
+  "length",
+  "resBox",
+  "block",
+  "choAXL",
+  "4choC",
+  "\x20ปิดเฉลย\x20",
+  "json",
+  "ไม่ว่าจะแฟน\x20เป็นสามีภรรยา\x20เรื่อง\x20Consent\x20เป็นหัวใจสำคัญของการมีเพศสัมพันธ์",
+  "name",
+  "6661wExvqX",
+  "2sokZTM",
+  "showBox",
+  "scoreDesc",
+  "เมื่อถึงเวลาที่คุณคิดว่าเหมาะ",
+  "backza",
+  "pink",
+  "กรุณารอสักครู่",
+  "nextQuestion(this.id)",
+  "questionXL",
+  "มันคือการแสดงออกว่าเราเคารพคู่นอน\x20และจะไม่บังคับให้ทำอะไรที่พวกเขาไม่อยากทำ",
+  "style",
+  "value",
+  "ผิด",
+  "เพราะ\x20Consent\x20ควรขอก่อนจะมีการปฏิสัมพันธ์ในทุกกรณี",
+  "showAns()",
+  "log",
+  "ก่อนมีการสัมผัสทุกรูปแบบ(กอด,\x20มีเพศสัมพันธ์\x20เป็นต้น)",
+  "จับมือ",
+  "เสียใจด้วย\x20คุณยังไม่ผ่านแบบทดสอบของเรานะ\x20;(",
+  "จะขอหยุด",
+  "choCXL",
+  "choBXL",
+  "removeAttribute",
+  "7QpyGfN",
+  "คุณเข้าใจเรื่องconsentได้ดีเลยนะ\x20เราหวังว่าคุณจะนำไปใช้ในชีวิตจริงด้วย\x20ขอบคุณนะ\x20:)",
+  "furLink",
+  "choC",
+  "ถูก",
+  "surveyBox",
+  "backz",
+  "เคารพการตัดสินใจและเปลี่ยนไปทำอย่างอื่นกัน",
+  "\x20เริ่มใหม่\x20",
+  "โน้มน้าวหรืออ้อนให้เปลี่ยนใจ",
+  "backQuestion2()",
+  "pop",
+  "JS\x20loaded\x2010.8",
+  "299563doGknB",
+  "436691OvjpEr",
+  "10.เมื่อเราได้\x20Consent\x20แล้ว\x20ในระหว่างเล่นเพลงรัก\x20เราก็ยังบอกคู่นอนได้ว่า.....",
+  "innerHTML",
+  "getElementById",
+  "10choC",
+  "grid",
+  "ทุกข้อที่กล่าวมา",
+  "คู่รักที่จะมีเซ็กส์กันเป็นครั้งแรก",
+  "disable",
+  "choA",
+  "จะขอพักยก",
+  "ansB",
+  "เล่นสัมพันธ์สวาท",
+  "true",
+  "onclick",
+  "7choC",
+  "Consent\x20เป็นเรื่องของการสื่อสารตลอดกิจกรรมเพศสัมพันธ์\x20ไม่ไหวก็ขอพักได้",
+  "136283LJXZot",
+  "surveyStart",
+  "\x206.การให้\x20Consent\x20มีแค่การพูด\x20ภาษากายและน้ำเสียงไม่นับ",
+  "resultWrap",
+  "3choA",
+  "ก่อนเริ่มมีเซ็กส์",
+  "ansDes",
+  "sending\x20feedback",
+  "3OhirXl",
+  "formQuiz",
+  "bobo",
+  "ไม่ทราบ",
+  "then",
+  "score\x20",
+  "เรื่องภาษากายสำคัญมาก\x20เพราะเราต้องคอยสังเกตุว่าคู่นอนของเรา\x20จริงๆ\x20แล้วรู้สึกยังไงในเรื่องที่ขอไป",
+  "ส่งความคิดเห็น",
+];
+var _0x432c01 = _0x2da3;
+(function (_0x2c8c02, _0x52afb6) {
+  var _0xea425d = _0x2da3;
+  while (!![]) {
+    try {
+      var _0x872bf0 =
+        parseInt(_0xea425d(0xe0)) +
+        -parseInt(_0xea425d(0xc4)) * -parseInt(_0xea425d(0x7a)) +
+        -parseInt(_0xea425d(0xbc)) +
+        -parseInt(_0xea425d(0xd9)) * parseInt(_0xea425d(0x9d)) +
+        -parseInt(_0xea425d(0xaa)) +
+        parseInt(_0xea425d(0x86)) * parseInt(_0xea425d(0x85)) +
+        parseInt(_0xea425d(0xab));
+      if (_0x872bf0 === _0x52afb6) break;
+      else _0x2c8c02["push"](_0x2c8c02["shift"]());
+    } catch (_0x3bde6c) {
+      _0x2c8c02["push"](_0x2c8c02["shift"]());
+    }
+  }
+})(_0x17cf, 0x28fa7);
 {
-  var questionShowing = 1;
-  var score = 0;
-  var quizDone = false;
-  var scoreText = "score ";
-  var ansSelected = [];
-  var correctAns = [
-    "1choC",
-    "2choA",
-    "3choA",
-    "4choC",
-    "5choC",
-    "6choB",
-    "7choC",
-    "8choB",
-    "9choC",
-    "10choC",
-  ];
-  var highlighter = [
-    "what",
-    "choCXL",
-    "choAXL",
-    "choAXL",
-    "choCXL",
-    "choCXL",
-    "choBXL",
-    "choCXL",
-    "choBXL",
-    "choCXL",
-    "choCXL",
-  ];
+  var questionShowing = 0x1,
+    score = 0x0,
+    quizDone = ![],
+    scoreText = _0x432c01(0xc9),
+    ansSelected = [],
+    correctAns = [
+      "1choC",
+      _0x432c01(0xe3),
+      _0x432c01(0xc0),
+      _0x432c01(0x80),
+      _0x432c01(0x74),
+      "6choB",
+      _0x432c01(0xba),
+      _0x432c01(0xd6),
+      _0x432c01(0x79),
+      _0x432c01(0xaf),
+    ],
+    highlighter = [
+      _0x432c01(0x71),
+      _0x432c01(0x9a),
+      _0x432c01(0x7f),
+      _0x432c01(0x7f),
+      _0x432c01(0x9a),
+      "choCXL",
+      _0x432c01(0x9b),
+      "choCXL",
+      _0x432c01(0x9b),
+      _0x432c01(0x9a),
+      _0x432c01(0x9a),
+    ];
 }
-
-//question array
 var questionArray = [
   { brown: "ร้ายกาจนักนะ" },
   {
-    questionNo: 1,
-    question: " 1.ควรขอ Consent ก่อนที่จะ.....",
-    ansA: "จับมือ",
-    ansB: "เล่นสัมพันธ์สวาท",
-    ansC: "ทุกข้อที่กล่าวมา",
-    desText: "เพราะ Consent ควรขอก่อนจะมีการปฏิสัมพันธ์ในทุกกรณี",
+    questionNo: 0x1,
+    question: "\x201.ควรขอ\x20Consent\x20ก่อนที่จะ.....",
+    ansA: _0x432c01(0x97),
+    ansB: _0x432c01(0xb7),
+    ansC: _0x432c01(0xb1),
+    desText: _0x432c01(0x93),
   },
   {
-    questionNo: 2,
+    questionNo: 0x2,
     question:
-      " 2.การขอ Consent ไม่ได้หมายถึงแค่การตอบตกลงหรือปฏิเสธอย่างเดียว มันรวมถึงการสื่อสารกับคู่นอนของคุณในสิ่งที่คุณทั้งคู่ต้องการ",
-    ansA: "ถูก",
-    ansB: "ผิด",
-    ansC: "ไม่ทราบ",
-    desText:
-      "มันคือการแสดงออกว่าเราเคารพคู่นอน และจะไม่บังคับให้ทำอะไรที่พวกเขาไม่อยากทำ",
+      "\x202.การขอ\x20Consent\x20ไม่ได้หมายถึงแค่การตอบตกลงหรือปฏิเสธอย่างเดียว\x20มันรวมถึงการสื่อสารกับคู่นอนของคุณในสิ่งที่คุณทั้งคู่ต้องการ",
+    ansA: _0x432c01(0xa1),
+    ansB: _0x432c01(0x92),
+    ansC: _0x432c01(0xc7),
+    desText: _0x432c01(0x8f),
   },
   {
-    questionNo: 3,
-    question: " 3.แล้ว Consent ต้องขอตอนไหนกันนะ?",
-    ansA: "ก่อนมีการสัมผัสทุกรูปแบบ(กอด, มีเพศสัมพันธ์ เป็นต้น)",
-    ansB: "เมื่อถึงเวลาที่คุณคิดว่าเหมาะ",
-    ansC: "ก่อนเริ่มมีเซ็กส์",
-    desText:
-      "ที่ต้องถามก่อน เพราะว่าเราต้องคิดเสมอว่าการกระทำของเราอาจส่งผลอะไรกับอีกฝ่าย",
+    questionNo: 0x3,
+    question: "\x203.แล้ว\x20Consent\x20ต้องขอตอนไหนกันนะ?",
+    ansA: _0x432c01(0x96),
+    ansB: _0x432c01(0x89),
+    ansC: _0x432c01(0xc1),
+    desText: _0x432c01(0x6d),
   },
   {
-    questionNo: 4,
-    question: "4.คนกลุ่มไหนต้องขอ Consent ซึ่งกันและกันบ้าง?",
-    ansA: "คู่รักที่จะมีเซ็กส์กันเป็นครั้งแรก",
+    questionNo: 0x4,
+    question: _0x432c01(0x75),
+    ansA: _0x432c01(0xb2),
     ansB: "คู่รักที่แต่งงานกันแล้ว",
-    ansC: "ทุกข้อที่กล่าวมา	",
-    desText:
-      "ไม่ว่าจะแฟน เป็นสามีภรรยา เรื่อง Consent เป็นหัวใจสำคัญของการมีเพศสัมพันธ์",
+    ansC: _0x432c01(0xd4),
+    desText: _0x432c01(0x83),
   },
   {
-    questionNo: 5,
-    question: " 5.เมื่อพูดถึงเรื่องเซ็กส์ ควรจะถามเรื่องอะไรบ้าง?",
-    ansA: "การป้องกัน",
+    questionNo: 0x5,
+    question: "\x205.เมื่อพูดถึงเรื่องเซ็กส์\x20ควรจะถามเรื่องอะไรบ้าง?",
+    ansA: _0x432c01(0x76),
     ansB: "สิ่งที่ชอบและไม่ชอบ",
     ansC: "ทุกข้อที่กล่าวมา",
-    desText:
-      "เราสามารถถามหัวข้อพวกนี้ได้หมดเลย เป็นเรื่องดีนะที่เราเปิดอกคุยกัน",
+    desText: _0x432c01(0xcc),
   },
   {
-    questionNo: 6,
-    question: " 6.การให้ Consent มีแค่การพูด ภาษากายและน้ำเสียงไม่นับ",
-    ansA: "ใช่",
+    questionNo: 0x6,
+    question: _0x432c01(0xbe),
+    ansA: _0x432c01(0x7b),
     ansB: "ไม่ใช่",
-    ansC: "ไม่ทราบ",
-    desText:
-      "เรื่องภาษากายสำคัญมาก เพราะเราต้องคอยสังเกตุว่าคู่นอนของเรา จริงๆ แล้วรู้สึกยังไงในเรื่องที่ขอไป",
+    ansC: _0x432c01(0xc7),
+    desText: _0x432c01(0xca),
   },
   {
-    questionNo: 7,
-    question: " 7.เราจะรู้ได้ยังไงบ้าง หากคู่นอนของคุณให้ Consent แล้ว?",
-    ansA: "ภาษากาย",
-    ansB: "น้ำเสียง",
-    ansC: "ทุกข้อที่กล่าวมา",
-    desText:
-      "การให้ความใส่ใจกับปัจจัยพวกนี้เป็นเรื่องดี เพราะจะได้รู้ว่าคู่นอนเต็มใจให้ Consent กับเราจริงๆ",
-  },
-  {
-    questionNo: 8,
+    questionNo: 0x7,
     question:
-      "8.หลังขอ Consent แล้ว ถ้าคู่นอนตอบกลับมาทำนองว่า “ก็ได้มั้ง” แบบนี้อาจหมายความว่าอย่างไร?",
-    ansA: "คู่นอนโอเคและอยากจะทำตามที่คุณขอ",
-    ansB: "คู่นอนยังไม่มั่นใจหรือไม่อยากตอบปฎิเสธไปตรงๆ ",
-    ansC: "ไม่ทราบ",
-    desText:
-      "ถ้าไม่มั่นใจว่าคู่นอนรู้สึกยังไงกับเรื่องที่ขอ ก็ให้พักไว้ก่อนจะดีกว่า",
+      "\x207.เราจะรู้ได้ยังไงบ้าง\x20หากคู่นอนของคุณให้\x20Consent\x20แล้ว?",
+    ansA: _0x432c01(0x6f),
+    ansB: _0x432c01(0xdb),
+    ansC: _0x432c01(0xb1),
+    desText: _0x432c01(0xdc),
   },
   {
-    questionNo: 9,
-    question: " 9.หากขอ Consent แล้วถูกปฎิเสธ ควรทำอย่างไร?",
-    ansA: "โน้มน้าวหรืออ้อนให้เปลี่ยนใจ",
-    ansB: "ค่อยถามอีกที เผื่อเปลี่ยนใจ",
-    ansC: "เคารพการตัดสินใจและเปลี่ยนไปทำอย่างอื่นกัน",
-    desText: "ถ้าโดนปฎิเสธแล้ว ก็เคารพการตัดสินใจ และไปทำอย่างอื่นแทน",
-  },
-  {
-    questionNo: 10,
+    questionNo: 0x8,
     question:
-      "10.เมื่อเราได้ Consent แล้ว ในระหว่างเล่นเพลงรัก เราก็ยังบอกคู่นอนได้ว่า.....",
-    ansA: "จะขอพักยก",
-    ansB: "จะขอหยุด",
-    ansC: "ทุกข้อที่กล่าวมา",
+      "8.หลังขอ\x20Consent\x20แล้ว\x20ถ้าคู่นอนตอบกลับมาทำนองว่า\x20“ก็ได้มั้ง”\x20แบบนี้อาจหมายความว่าอย่างไร?",
+    ansA: _0x432c01(0xce),
+    ansB: _0x432c01(0x6b),
+    ansC: _0x432c01(0xc7),
     desText:
-      "Consent เป็นเรื่องของการสื่อสารตลอดกิจกรรมเพศสัมพันธ์ ไม่ไหวก็ขอพักได้",
+      "ถ้าไม่มั่นใจว่าคู่นอนรู้สึกยังไงกับเรื่องที่ขอ\x20ก็ให้พักไว้ก่อนจะดีกว่า",
+  },
+  {
+    questionNo: 0x9,
+    question: _0x432c01(0xd8),
+    ansA: _0x432c01(0xa6),
+    ansB: _0x432c01(0xd2),
+    ansC: _0x432c01(0xa4),
+    desText: "ถ้าโดนปฎิเสธแล้ว\x20ก็เคารพการตัดสินใจ\x20และไปทำอย่างอื่นแทน",
+  },
+  {
+    questionNo: 0xa,
+    question: _0x432c01(0xac),
+    ansA: _0x432c01(0xb5),
+    ansB: _0x432c01(0x99),
+    ansC: "ทุกข้อที่กล่าวมา",
+    desText: _0x432c01(0xbb),
   },
 ];
-
-window.onload = function () {
-  caller();
-  startBtn.setAttribute("onclick", "startQuiz()");
-  kamui(realBtn);
-  kamui(boxx);
-  kamui(realBox);
-  kamui(resBox);
-  kamui(furLink);
-  kamui(resultWrap);
-  console.log("JS loaded 10.7");
+window["onload"] = function () {
+  var _0x5a1ddf = _0x432c01;
+  caller(),
+    startBtn["setAttribute"](_0x5a1ddf(0xb9), "startQuiz()"),
+    kamui(realBtn),
+    kamui(boxx),
+    kamui(realBox),
+    kamui(resBox),
+    kamui(furLink),
+    kamui(resultWrap),
+    console[_0x5a1ddf(0x95)](_0x5a1ddf(0xa9));
 };
-
 function caller() {
-  startBtn = document.getElementById("myBtn");
-  boxx = document.getElementById("surveyBox");
-  startBox = document.getElementById("surveyStart");
-  questionText = document.getElementById("question");
-  questionTextx = document.getElementById("questionXL");
-  choiceA = document.getElementById("choA");
-  choiceB = document.getElementById("choB");
-  choiceC = document.getElementById("choC");
-  backBtn = document.getElementById("backz");
-  backBtn2 = document.getElementById("backza");
-  realBtn = document.getElementById("realz");
-  surHead = document.getElementById("surveyHeader");
-  ansDes = document.getElementById("ansDes");
-  realBox = document.getElementById("showBox");
-  nextBtn = document.getElementById("nextz");
-  choiceAx = document.getElementById("choAXL");
-  choiceBx = document.getElementById("choBXL");
-  choiceCx = document.getElementById("choCXL");
-  userName = document.getElementById("name");
-  userMessage = document.getElementById("message");
-  formQuiz = document.getElementById("formQuiz");
-  resBox = document.getElementById("resBox");
-  scoreDesc = document.getElementById("scoreDesc");
-  bobo = document.getElementById("bobo");
-  furLink = document.getElementById("furLink");
-  resultWrap = document.getElementById("resultWrap");
-  resultz = document.getElementById("resultz");
-  wowSound = document.getElementById("wowSound");
-  submitBtn = document.getElementById("submitBtn");
+  var _0x2ba9fc = _0x432c01;
+  (startBtn = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xcd))),
+    (boxx = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xa2))),
+    (startBox = document["getElementById"](_0x2ba9fc(0xbd))),
+    (questionText = document["getElementById"]("question")),
+    (questionTextx = document[_0x2ba9fc(0xae)](_0x2ba9fc(0x8e))),
+    (choiceA = document["getElementById"](_0x2ba9fc(0xb4))),
+    (choiceB = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xdd))),
+    (choiceC = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xa0))),
+    (backBtn = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xa3))),
+    (backBtn2 = document[_0x2ba9fc(0xae)](_0x2ba9fc(0x8a))),
+    (realBtn = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xd1))),
+    (surHead = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xd5))),
+    (ansDes = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xc2))),
+    (realBox = document[_0x2ba9fc(0xae)](_0x2ba9fc(0x87))),
+    (nextBtn = document[_0x2ba9fc(0xae)]("nextz")),
+    (choiceAx = document["getElementById"]("choAXL")),
+    (choiceBx = document[_0x2ba9fc(0xae)](_0x2ba9fc(0x9b))),
+    (choiceCx = document["getElementById"](_0x2ba9fc(0x9a))),
+    (userName = document[_0x2ba9fc(0xae)](_0x2ba9fc(0x84))),
+    (userMessage = document[_0x2ba9fc(0xae)]("message")),
+    (formQuiz = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xc5))),
+    (resBox = document["getElementById"](_0x2ba9fc(0x7d))),
+    (scoreDesc = document[_0x2ba9fc(0xae)](_0x2ba9fc(0x88))),
+    (bobo = document["getElementById"](_0x2ba9fc(0xc6))),
+    (furLink = document["getElementById"](_0x2ba9fc(0x9f))),
+    (resultWrap = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xbf))),
+    (resultz = document["getElementById"]("resultz")),
+    (wowSound = document[_0x2ba9fc(0xae)]("wowSound")),
+    (submitBtn = document[_0x2ba9fc(0xae)](_0x2ba9fc(0xd3)));
 }
-
-function kamui(varName) {
-  varName.style.display = "none";
+function kamui(_0x3ac48e) {
+  var _0x34f4ef = _0x432c01;
+  _0x3ac48e[_0x34f4ef(0x90)][_0x34f4ef(0xe1)] = "none";
 }
-
 function changeChoice() {
-  questionText.innerHTML = questionArray[questionShowing].question;
-  choiceA.innerHTML = questionArray[questionShowing].ansA;
-  choiceB.innerHTML = questionArray[questionShowing].ansB;
-  choiceC.innerHTML = questionArray[questionShowing].ansC;
-  questionTextx.innerHTML = questionArray[questionShowing].question;
-  choiceAx.innerHTML = questionArray[questionShowing].ansA;
-  choiceBx.innerHTML = questionArray[questionShowing].ansB;
-  choiceCx.innerHTML = questionArray[questionShowing].ansC;
-  ansDes.innerHTML = questionArray[questionShowing].desText;
+  var _0x44ec32 = _0x432c01;
+  (questionText[_0x44ec32(0xad)] =
+    questionArray[questionShowing][_0x44ec32(0xde)]),
+    (choiceA[_0x44ec32(0xad)] =
+      questionArray[questionShowing][_0x44ec32(0xe2)]),
+    (choiceB[_0x44ec32(0xad)] =
+      questionArray[questionShowing][_0x44ec32(0xb6)]),
+    (choiceC["innerHTML"] = questionArray[questionShowing][_0x44ec32(0xd0)]),
+    (questionTextx["innerHTML"] =
+      questionArray[questionShowing][_0x44ec32(0xde)]),
+    (choiceAx[_0x44ec32(0xad)] =
+      questionArray[questionShowing][_0x44ec32(0xe2)]),
+    (choiceBx["innerHTML"] = questionArray[questionShowing][_0x44ec32(0xb6)]),
+    (choiceCx[_0x44ec32(0xad)] =
+      questionArray[questionShowing][_0x44ec32(0xd0)]),
+    (ansDes[_0x44ec32(0xad)] = questionArray[questionShowing][_0x44ec32(0x6e)]);
 }
-
 function startQuiz() {
-  kamui(startBox);
-
-  boxx.style.display = "grid";
-
-  choiceA.setAttribute("onclick", "nextQuestion(this.id)");
-  choiceB.setAttribute("onclick", "nextQuestion(this.id)");
-  choiceC.setAttribute("onclick", "nextQuestion(this.id)");
-  backBtn.setAttribute("onclick", "backQuestion()");
-  backBtn2.setAttribute("onclick", "backQuestion2()");
-  kamui(backBtn);
-
-  realBtn.setAttribute("onclick", "showAns()");
-  nextBtn.setAttribute("onclick", "nextQuestion2()");
-  kamui(bobo);
-
-  changeChoice();
-}
-
-function nextQuestion(selected) {
-  ansSelected.push(questionShowing + selected);
-  if (questionShowing < 10) {
-    questionShowing++;
+  var _0x57b5e9 = _0x432c01;
+  kamui(startBox),
+    (boxx["style"][_0x57b5e9(0xe1)] = _0x57b5e9(0xb0)),
+    choiceA[_0x57b5e9(0xd7)]("onclick", "nextQuestion(this.id)"),
+    choiceB[_0x57b5e9(0xd7)]("onclick", _0x57b5e9(0x8d)),
+    choiceC[_0x57b5e9(0xd7)](_0x57b5e9(0xb9), _0x57b5e9(0x8d)),
+    backBtn[_0x57b5e9(0xd7)](_0x57b5e9(0xb9), _0x57b5e9(0x6a)),
+    backBtn2[_0x57b5e9(0xd7)](_0x57b5e9(0xb9), _0x57b5e9(0xa7)),
+    kamui(backBtn),
+    realBtn[_0x57b5e9(0xd7)](_0x57b5e9(0xb9), _0x57b5e9(0x94)),
+    nextBtn["setAttribute"]("onclick", "nextQuestion2()"),
+    kamui(bobo),
     changeChoice();
-    if (questionShowing == 2) {
-      backBtn.style.display = "inline-block";
-    }
-  } else {
-    quizFin();
-  }
 }
-
+function nextQuestion(_0x12b5ac) {
+  var _0x4c13fa = _0x432c01;
+  ansSelected["push"](questionShowing + _0x12b5ac),
+    questionShowing < 0xa
+      ? (questionShowing++,
+        changeChoice(),
+        questionShowing == 0x2 &&
+          (backBtn[_0x4c13fa(0x90)]["display"] = _0x4c13fa(0x70)))
+      : quizFin();
+}
 function nextQuestion2() {
-  if (questionShowing < 10) {
-    questionShowing++;
-    changeChoice();
-    highlightAns();
-  } else {
-    kamui(realBox);
-    startBox.style.display = "grid";
-  }
-  if (questionShowing == 10) {
-    nextBtn.innerHTML = " ปิดเฉลย ";
-  }
-  if (questionShowing == 2) {
-    backBtn2.style.display = "inline-block";
-  }
+  var _0x43cbd = _0x432c01;
+  questionShowing < 0xa
+    ? (questionShowing++, changeChoice(), highlightAns())
+    : (kamui(realBox), (startBox[_0x43cbd(0x90)]["display"] = _0x43cbd(0xb0))),
+    questionShowing == 0xa && (nextBtn[_0x43cbd(0xad)] = _0x43cbd(0x81)),
+    questionShowing == 0x2 &&
+      (backBtn2["style"][_0x43cbd(0xe1)] = _0x43cbd(0x70));
 }
-
+function _0x2da3(_0x2314c4, _0xbee3b4) {
+  _0x2314c4 = _0x2314c4 - 0x6a;
+  var _0x17cff5 = _0x17cf[_0x2314c4];
+  return _0x17cff5;
+}
 function backQuestion() {
-  ansSelected.pop();
-  questionShowing--;
-  changeChoice();
-  if (questionShowing == 1) {
-    kamui(backBtn);
-  }
+  var _0x5087c6 = _0x432c01;
+  ansSelected[_0x5087c6(0xa8)](),
+    questionShowing--,
+    changeChoice(),
+    questionShowing == 0x1 && kamui(backBtn);
 }
-
 function backQuestion2() {
-  if (questionShowing == 10) {
-    nextBtn.innerHTML = " ถัดไป ";
-  }
-  questionShowing--;
-  changeChoice();
-  highlightAns();
-  if (questionShowing == 1) {
-    kamui(backBtn2);
-  }
+  var _0x39f2e2 = _0x432c01;
+  questionShowing == 0xa && (nextBtn[_0x39f2e2(0xad)] = "\x20ถัดไป\x20"),
+    questionShowing--,
+    changeChoice(),
+    highlightAns(),
+    questionShowing == 0x1 && kamui(backBtn2);
 }
-
 function quizFin() {
-  quizDone = true;
-  kamui(boxx);
-  resultWrap.style.display = "block";
-  startBox.style.display = "grid";
-  var calScore = ansCheck();
-  if (calScore >= 8) {
-    resultz.innerHTML = "ยินดีด้วย! คุณผ่านแบบทดสอบของเรา <3";
-    scoreDesc.innerHTML =
-      "คุณเข้าใจเรื่องconsentได้ดีเลยนะ เราหวังว่าคุณจะนำไปใช้ในชีวิตจริงด้วย ขอบคุณนะ :)";
-    kamui(startBtn);
-    kamui(furLink);
-  } else {
-    resultz.innerHTML = "เสียใจด้วย คุณยังไม่ผ่านแบบทดสอบของเรานะ ;(";
-    scoreDesc.innerHTML =
-      "เราขอแนะนำบทความนี้ให้คุณได้ลองอ่าน เพื่อให้คุณเข้าใจมากขึ้นนะ";
-    realBtn.style.display = "inline-block";
-    furLink.style.display = "inline";
-  }
-
-  startBtn.innerHTML = " เริ่มใหม่ ";
-  surHead.innerHTML = "ผลการทำควิซของคุณฮะ";
-  startBtn.setAttribute("onclick", "restartX()");
+  var _0x3e681f = _0x432c01;
+  (quizDone = !![]),
+    kamui(boxx),
+    (resultWrap["style"][_0x3e681f(0xe1)] = _0x3e681f(0x7e)),
+    (startBox["style"][_0x3e681f(0xe1)] = _0x3e681f(0xb0));
+  var _0x346111 = ansCheck();
+  _0x346111 >= 0x8
+    ? ((resultz[_0x3e681f(0xad)] = _0x3e681f(0xdf)),
+      (scoreDesc[_0x3e681f(0xad)] = _0x3e681f(0x9e)),
+      kamui(startBtn),
+      kamui(furLink))
+    : ((resultz["innerHTML"] = _0x3e681f(0x98)),
+      (scoreDesc[_0x3e681f(0xad)] = _0x3e681f(0x78)),
+      (realBtn[_0x3e681f(0x90)][_0x3e681f(0xe1)] = _0x3e681f(0x70)),
+      (furLink[_0x3e681f(0x90)][_0x3e681f(0xe1)] = _0x3e681f(0xe4))),
+    (startBtn[_0x3e681f(0xad)] = _0x3e681f(0xa5)),
+    (surHead["innerHTML"] = "ผลการทำควิซของคุณฮะ"),
+    startBtn[_0x3e681f(0xd7)](_0x3e681f(0xb9), _0x3e681f(0xe5));
 }
-
 function ansCheck() {
-  score = 0;
-  scoreText = "score ";
-  for (let runner = 0; runner < ansSelected.length; runner++) {
-    if (ansSelected[runner] == correctAns[runner]) {
-      score++;
-    }
+  var _0x3e27bc = _0x432c01;
+  (score = 0x0), (scoreText = _0x3e27bc(0xc9));
+  for (
+    let _0x24c1d3 = 0x0;
+    _0x24c1d3 < ansSelected[_0x3e27bc(0x7c)];
+    _0x24c1d3++
+  ) {
+    ansSelected[_0x24c1d3] == correctAns[_0x24c1d3] && score++;
   }
-  scoreText += score;
-  console.log(scoreText);
-  return score;
+  return (scoreText += score), console["log"](scoreText), score;
 }
-
 function restartX() {
-  quizDone = false;
-
-  kamui(startBox);
-  boxx.style.display = "grid";
-  kamui(backBtn);
-  questionShowing = 1;
-  ansSelected = [];
-  changeChoice();
+  var _0x5b5df2 = _0x432c01;
+  (quizDone = ![]),
+    kamui(startBox),
+    (boxx["style"]["display"] = _0x5b5df2(0xb0)),
+    kamui(backBtn),
+    (questionShowing = 0x1),
+    (ansSelected = []),
+    changeChoice();
 }
-
 function showAns() {
-  quizDone = false;
-
-  questionShowing = 1;
-  ansSelected = [];
-  changeChoice();
-  kamui(startBox);
-
-  realBox.style.display = "grid";
-  choiceA.disable = "true";
-  kamui(backBtn2);
-
-  nextBtn.innerHTML = " ถัดไป ";
-  highlightAns();
+  var _0x10d7f2 = _0x432c01;
+  (quizDone = ![]),
+    (questionShowing = 0x1),
+    (ansSelected = []),
+    changeChoice(),
+    kamui(startBox),
+    (realBox["style"][_0x10d7f2(0xe1)] = _0x10d7f2(0xb0)),
+    (choiceA[_0x10d7f2(0xb3)] = _0x10d7f2(0xb8)),
+    kamui(backBtn2),
+    (nextBtn[_0x10d7f2(0xad)] = "\x20ถัดไป\x20"),
+    highlightAns();
 }
-
 function highlightAns() {
-  choiceAx.style.backgroundColor = "rgba(0, 0, 0, 0)";
-  choiceBx.style.backgroundColor = "rgba(0, 0, 0, 0)";
-  choiceCx.style.backgroundColor = "rgba(0, 0, 0, 0)";
-
-  jojo = document.getElementById(highlighter[questionShowing]);
-  jojo.style.backgroundColor = "pink";
+  var _0x4d0e39 = _0x432c01;
+  (choiceAx["style"][_0x4d0e39(0x73)] = _0x4d0e39(0xcf)),
+    (choiceBx[_0x4d0e39(0x90)]["backgroundColor"] = _0x4d0e39(0xcf)),
+    (choiceCx["style"]["backgroundColor"] = _0x4d0e39(0xcf)),
+    (jojo = document["getElementById"](highlighter[questionShowing])),
+    (jojo[_0x4d0e39(0x90)][_0x4d0e39(0x73)] = _0x4d0e39(0x8b));
 }
-
 function sendMore() {
-  kamui(resBox);
-  formQuiz.style.display = "block";
+  var _0xc8c645 = _0x432c01;
+  kamui(resBox), (formQuiz["style"][_0xc8c645(0xe1)] = _0xc8c645(0x7e));
 }
-
 function playsound() {
-  wowSound.play();
+  wowSound["play"]();
 }
-
-//sheetDB script คับพรี่
-var form = document.getElementById("sheetdb-form");
-form.addEventListener("submit", (e) => {
-  console.log("sending feedback");
-  submitBtn.value = "กรุณารอสักครู่";
-  submitBtn.setAttribute("disabled", true);
-  e.preventDefault();
-  fetch(form.action, {
-    method: "POST",
-    body: new FormData(document.getElementById("sheetdb-form")),
-  })
-    .then((response) => response.json())
-    .then((html) => {
-      console.log(userName.value + " " + userMessage.value);
-      userName.value = "";
-      userMessage.value = "";
-      kamui(formQuiz);
-      resBox.style.display = "block";
-      submitBtn.value = "ส่งความคิดเห็น";
-      submitBtn.removeAttribute("disabled");
-      playsound();
-    });
+var form = document[_0x432c01(0xae)](_0x432c01(0x6c));
+form[_0x432c01(0x77)](_0x432c01(0xda), (_0x5d469e) => {
+  var _0x19924d = _0x432c01;
+  console[_0x19924d(0x95)](_0x19924d(0xc3)),
+    (submitBtn[_0x19924d(0x91)] = _0x19924d(0x8c)),
+    submitBtn[_0x19924d(0xd7)]("disabled", !![]),
+    _0x5d469e["preventDefault"](),
+    fetch(form["action"], {
+      method: _0x19924d(0x72),
+      body: new FormData(document[_0x19924d(0xae)](_0x19924d(0x6c))),
+    })
+      [_0x19924d(0xc8)]((_0x92926d) => _0x92926d[_0x19924d(0x82)]())
+      [_0x19924d(0xc8)]((_0x819b89) => {
+        var _0x5cb833 = _0x19924d;
+        console[_0x5cb833(0x95)](
+          userName[_0x5cb833(0x91)] + "\x20" + userMessage[_0x5cb833(0x91)]
+        ),
+          (userName[_0x5cb833(0x91)] = ""),
+          (userMessage["value"] = ""),
+          kamui(formQuiz),
+          (resBox["style"]["display"] = "block"),
+          (submitBtn[_0x5cb833(0x91)] = _0x5cb833(0xcb)),
+          submitBtn[_0x5cb833(0x9c)]("disabled"),
+          playsound();
+      });
 });

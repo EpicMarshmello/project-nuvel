@@ -137,7 +137,7 @@ window.onload = function () {
   kamui(resBox);
   kamui(furLink);
   kamui(resultWrap);
-  console.log("JS loaded 10.5");
+  console.log("JS loaded 10.7");
 };
 
 function caller() {
@@ -169,6 +169,7 @@ function caller() {
   resultWrap = document.getElementById("resultWrap");
   resultz = document.getElementById("resultz");
   wowSound = document.getElementById("wowSound");
+  submitBtn = document.getElementById("submitBtn");
 }
 
 function kamui(varName) {
@@ -343,7 +344,9 @@ function playsound() {
 //sheetDB script คับพรี่
 var form = document.getElementById("sheetdb-form");
 form.addEventListener("submit", (e) => {
-  console.log("runnnn");
+  console.log("sending feedback");
+  submitBtn.value = "กรุณารอสักครู่";
+  submitBtn.setAttribute("disabled", true);
   e.preventDefault();
   fetch(form.action, {
     method: "POST",
@@ -356,6 +359,8 @@ form.addEventListener("submit", (e) => {
       userMessage.value = "";
       kamui(formQuiz);
       resBox.style.display = "block";
+      submitBtn.value = "ส่งความคิดเห็น";
+      submitBtn.removeAttribute("disabled");
       playsound();
     });
 });
